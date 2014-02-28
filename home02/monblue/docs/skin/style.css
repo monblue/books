@@ -1,0 +1,19 @@
+body,table,tr,td,select,div,form {font-family:Tahoma,Verdana; LINE-HEIGHT:170%; font-size:9pt; color:#003399;}
+BODY {scrollbar-face-color:#F9B566;
+scrollbar-highlight-color:#F9B566;
+scrollbar-3dlight-color:#F9B566;
+scrollbar-darkshadow-color:#F9B566;
+scrollbar-shadow-color:#E08F2F;
+scrollbar-arrow-color:#E08F2F;
+scrollbar-track-color:#F9B566;}
+
+textarea {scrollbar-face-color:#F9B566;
+scrollbar-highlight-color:#F9B566;
+scrollbar-3dlight-color:#F9B566;
+scrollbar-darkshadow-color:#F9B566;
+scrollbar-shadow-color:#E08F2F;
+scrollbar-arrow-color:#E08F2F;
+scrollbar-track-color:#F9B566;
+background-color:transparent}
+
+body {background-color:transparent}
