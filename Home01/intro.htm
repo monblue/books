@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>파랑글마당</title>
+</head>
+<body bgcolor="black" text="white" onload="status_add()">
+<SCRIPT language="JAVASCRIPT">
+var chardelay=200
+var termdelay=1000
+var whichmsg= 0
+var msglength = 0 
+var whattimer = null 
+var msg=new Array()
+msg[0]="안녕하세요!"
+msg[1]="이곳은 파랑글마당입니다."
+msg[2]="밝은 날들을 맑은 맘으로 보내시길..."
+function status_add() {
+var msg_str=msg[whichmsg]
+if(msglength < msg_str.length) {
+msglength++
+var dis_str=msg_str.substring(0, msglength+1)
+window.status=dis_str
+msglength++
+whattimer=setTimeout("status_add()", chardelay)
+}
+else {
+msglength = 0
+whichmsg++
+if(whichmsg==msg.length)
+	whichmsg = 0
+whattimer=setTimeout("status_add()", termdelay)
+}
+}
+</SCRIPT>
+<table width="630" border="0" bgcolor="black" text="white" link="blue" vlink="purple" alink="red">
+<tr>
+<td colspan="3"><p align="center" line-height="140%"><font face="개성체" size="3" color="#A8A8FF">문득 바라본 하늘이 맑아 고웁고/ 밝게만 쏟아지는 햇빛이 따스워//<br>
+밤바다에 물빛도 시리게 파랗고/ 물빛젖은 달빛도 끝모르게 파래//<br>
+아/그런 날은 밤새도록 파랑파랑..//<br></font></td>
+</tr><tr>
+<td colspan="3" bgcolor="#EFFFBF"><p><font face="굴림" size="3" color="blue"><b><marquee behavior="alternate">물빛 파랑... 달빛 파랑...</marquee></b></font></td>
+</tr><tr>
+<th width="320" height="30" align="left" bgcolor="#CFFFBF"><p><font face="굴림" color="#8000FF">&nbsp;&nbsp;이곳은 파랑 글마당입니다</font></th>
+<td width="10" height="30" bgcolor="#BFFFCF"><p>&nbsp;</td>
+<td width="300" height="30" bgcolor="#BFFFEF"><font face="굴림" size="3" color=red><b>&nbsp;&nbsp;&nbsp;&nbsp;!!</font><font face="굴림" size="3" color=#9999FF>&nbsp;&nbsp;"파랑담"에《나반에게로》를<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우선 올렸습니다(98. 9. 1.).<font face="굴림" size="3" color=red>!!</font></b></font>
+</td>
+</tr><tr>
+<td width="320" height="204" valign="top"><p align="right" line-height="150%"><font face="굴림" size="2"><br>
+<font face="굴림" size="3"><a href="bpm.htm"><b>파랑시</b></a></font>에는《장미의 전설》을 비롯한 자작시...<br>
+<font face="굴림" size="3"><a href="bpr.htm"><b>파랑담</b></a></font>에는《시옷 사랑》을 비롯한 자작글...<br>
+<font face="굴림" size="3"><a href="gpm.htm"><b>참존시</b></a></font>에는《김수영》을 비롯한 여러 시인의 시...<br>
+<font face="굴림" size="3"><a href="gpr.htm"><b>참존글</b></a></font>에는《청춘예찬》을 비롯한 따뜻한 글...<br>
+시와 시인을 되새기는 배움마당...<br>
+<font face="굴림" size="3"><a href="orm.htm"><b>게시판</b></a></font>들도 있고요...<br>
+그리고 <font face="굴림" size="3"><a href="bqz.htm"><b>퀴즈쇼</b></a></font>에는《성냥개비》퍼즐 등의 퀴즈...<br>
+<br>
+</font><br><br>
+<font face="굴림" size="2" color="yellow">Explorer4.0이상, 800*600에서 잘 보실 수 있습니다.<br>
+</font></td>
+<td width="10" height="204"></td>
+<td width="300" height="204" valign="top"><p align="right" line-height="120%"><font face="굴림" color="#00FF40" size="2"><br>
+하늘, 그건 손닿는 곳 바로/한/뼘/위/빈터//<br>
+문파랑의《하늘잡이》중에서<br>
+<br>
+청춘! 이는 듣기만 하여도 가슴이 설레는 말이다. 청춘! 너의 두 손을 가슴에 대고, 물방아 같은 심장의 고동을 들어 보라. 청춘의 피는 끓는다.<br>
+민태원의《청춘예찬》중에서<br>
+<br>
+시는 바다의 동물이 육지에 살면서 다시 공중을 날으려는 기록記錄이다<br>
+C.A.샌드버그의《시는》중에서<br>
+</font></td>
+</tr><tr>
+<td width="320" height="24"></td>
+<td width="10" height="24"></td>
+<td width="300" height="24"></td>
+</tr><tr>
+<td width="320" height="20"><p align="right" line-height="140%"><font face="굴림" size="2">HTML문법도 모르는 초보자라 서툴지만</font></td>
+<td width="10" height="20"></td>
+<td width="300" height="20"><p align="right" line-height="140%"><font face="굴림" size="2">좀 더 나은 마당을 위해 땀을 쏟으렵니다</font></td>
+</tr><tr>
+<td width="320" height="22"><p align="right"><font face="굴림" size="3" color="red">
+<a href="imi.htm"><b>홈지기는?</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/cgi-bin/counter.dll?id=warwelite&digit=4"></p></font></td>
+<td width="10" height="22"></td>
+<td width="300" height="22"><p align="right" line-height="140%"><font face="굴림" size="2" color="red">많은 사랑을 바랍니다</font></td>
+</tr>
+</table>
+</body>
+</html>
